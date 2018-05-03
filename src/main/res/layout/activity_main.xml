@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+
+        <ExpandableListView
+            android:id="@+id/expl"
+            android:layout_weight="9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+
+
+        </ExpandableListView>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <CheckBox
+            android:id="@+id/ck_All"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全选/反选"
+            android:focusable="false"
+            />
+        <TextView
+            android:textColor="#f00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总价:￥"
+            />
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:text="0"
+            />
+        <Button
+            android:background="#f00"
+            android:id="@+id/consume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去结算"
+            android:focusable="false"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
